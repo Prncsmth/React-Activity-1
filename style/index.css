@@ -1,0 +1,78 @@
+/* === App Styles === */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+/* === Header === */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* === Footer === */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* === Profile Picture === */
+.profile-picture img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+/* === About Me === */
+.about-me {
+  text-align: center;
+  margin: 10px;
+}
+
+/* === Skills === */
+.skills {
+  text-align: center;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+.skills li {
+  margin: 5px 0;
+}
+
+/* === Button === */
+.button-container {
+  text-align: center;
+  margin: 20px;
+}
+.redirect-button {
+  background-color: #4267B2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.redirect-button:hover {
+  background-color: #365899;
+}
+
+/* === Profile === */
+.profile {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
